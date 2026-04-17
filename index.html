@@ -17,6 +17,19 @@
         <li> <a href="https://www.dioezese-linz.at/linz-stmarkus&ts=1776233915963" target="_blank"> Pfarre St. Markus </a> </li>
     </ul>
     <img src="img/Lentos.jpg" width="400" alt="Lentos Kunstmuseum" title="Lentos Kunstmuseum">
+    <ul id="liste-linz">
+        <script>
+  // Teil A: Lokale Daten
+  const stadtteile = ["Urfahr", "Innere Stadt", "Bindermichel"];
+  const liste = document.getElementById("liste-linz");
+  stadtteile.forEach(s => {
+    let li = document.createElement("li");
+    li.textContent = s;
+    liste.appendChild(li);
+  });
+</script>
+
+    </ul>
 <h1>Maximilian Pilz</h1>
 <p>Name: Maximilian Pilz, <br/> Geburtsdatum: 01.04.2011, <br/> Wohnort: Linz, <br/> Schule: Khevenhüllergymnasium Linz</p>
 
